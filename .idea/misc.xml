@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/Android Projects/HouseRenting/app/src/main/res/font/roboto_bold.xml" value="0.28020833333333334" />
+        <entry key="..\:/Android Projects/HouseRenting/app/src/main/res/layout/activity_houseinfo.xml" value="0.264" />
+        <entry key="..\:/Android Projects/HouseRenting/app/src/main/res/layout/activity_landlord_login.xml" value="0.24456521739130435" />
+        <entry key="..\:/Android Projects/HouseRenting/app/src/main/res/layout/activity_landlord_signin.xml" value="0.24456521739130435" />
+        <entry key="..\:/Android Projects/HouseRenting/app/src/main/res/layout/activity_listof_houses.xml" value="0.25" />
+        <entry key="..\:/Android Projects/HouseRenting/app/src/main/res/layout/activity_login.xml" value="0.22282608695652173" />
+        <entry key="..\:/Android Projects/HouseRenting/app/src/main/res/layout/activity_main.xml" value="0.22826086956521738" />
+        <entry key="..\:/Android Projects/HouseRenting/app/src/main/res/layout/activity_my_favourites.xml" value="0.23143115942028986" />
+        <entry key="..\:/Android Projects/HouseRenting/app/src/main/res/layout/activity_post_login_ll.xml" value="0.24456521739130435" />
+        <entry key="..\:/Android Projects/HouseRenting/app/src/main/res/layout/activity_signin.xml" value="0.264" />
+        <entry key="..\:/Android Projects/HouseRenting/app/src/main/res/layout/activity_timepass.xml" value="0.1634963768115942" />
+        <entry key="..\:/Android Projects/HouseRenting/app/src/main/res/layout/forstudents.xml" value="0.24139492753623187" />
+        <entry key="..\:/Android Projects/HouseRenting/app/src/main/res/layout/forviewonly.xml" value="0.2" />
+        <entry key="..\:/Android Projects/HouseRenting/app/src/main/res/layout/house_row.xml" value="0.2" />
+        <entry key="..\:/Android Projects/HouseRenting/app/src/main/res/layout/listofh.xml" value="0.23369565217391305" />
+        <entry key="..\:/Android Projects/HouseRenting/app/src/main/res/layout/studentfavs.xml" value="0.23143115942028986" />
+        <entry key="..\:/Android Projects/HouseRenting/app/src/main/res/layout/studenthouses_row.xml" value="0.25" />
+        <entry key="..\:/Android Projects/HouseRenting/app/src/main/res/menu/menu.xml" value="0.264" />
+        <entry key="..\:/Android Projects/HouseRenting/app/src/main/res/menu/menustudent.xml" value="0.25" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="Android Studio default JDK" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>
