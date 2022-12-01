@@ -1,0 +1,229 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Houseinfo">
+
+    <ImageView
+        android:id="@+id/housePhoto_all"
+        android:layout_width="368dp"
+        android:layout_height="206dp"
+        android:layout_marginTop="16dp"
+        android:background="@drawable/img"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/Landlord_no_student"
+        android:layout_width="107dp"
+        android:layout_height="28dp"
+        android:layout_marginTop="136dp"
+        android:text="TextView"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.101"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <EditText
+        android:id="@+id/AboutTv_Recycler_student"
+        android:layout_width="230dp"
+        android:layout_height="49dp"
+        android:layout_marginTop="20dp"
+        android:ems="10"
+        android:hint="About"
+        android:inputType="textPersonName"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.861"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/housePhoto_all" />
+
+    <EditText
+        android:id="@+id/ConstructionTv_recycler_student"
+        android:layout_width="197dp"
+        android:layout_height="48dp"
+        android:layout_marginTop="76dp"
+        android:ems="10"
+        android:hint="Construction"
+        android:inputType="textPersonName"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.728"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/housePhoto_all" />
+
+    <TextView
+        android:id="@+id/AboutTextView"
+        android:layout_width="99dp"
+        android:layout_height="27dp"
+        android:layout_marginTop="32dp"
+        android:text="About"
+        app:layout_constraintEnd_toStartOf="@+id/AboutTv_Recycler_student"
+        app:layout_constraintHorizontal_bias="0.35"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/housePhoto_all" />
+
+    <TextView
+        android:id="@+id/BuilderTextView"
+        android:layout_width="99dp"
+        android:layout_height="27dp"
+        android:layout_marginTop="88dp"
+        android:text="Construction"
+        app:layout_constraintEnd_toStartOf="@+id/ConstructionTv_recycler_student"
+        app:layout_constraintHorizontal_bias="0.35"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/housePhoto_all" />
+
+    <TextView
+        android:id="@+id/BHKTextView"
+        android:layout_width="99dp"
+        android:layout_height="27dp"
+        android:layout_marginTop="136dp"
+        android:text="BHK"
+        app:layout_constraintEnd_toStartOf="@+id/ConstructionTv_recycler_student"
+        app:layout_constraintHorizontal_bias="0.35"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/housePhoto_all" />
+
+    <TextView
+        android:id="@+id/AddressTextView"
+        android:layout_width="99dp"
+        android:layout_height="27dp"
+        android:layout_marginTop="192dp"
+        android:text="Address"
+        app:layout_constraintEnd_toStartOf="@+id/ConstructionTv_recycler_student"
+        app:layout_constraintHorizontal_bias="0.35"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/housePhoto_all" />
+
+    <TextView
+        android:id="@+id/DistanceTextView"
+        android:layout_width="101dp"
+        android:layout_height="36dp"
+        android:layout_marginTop="24dp"
+        android:text="Distance From College"
+        app:layout_constraintEnd_toStartOf="@+id/ConstructionTv_recycler_student"
+        app:layout_constraintHorizontal_bias="0.325"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/AddressTv_recycler_student" />
+
+    <TextView
+        android:id="@+id/RentTextView"
+        android:layout_width="99dp"
+        android:layout_height="27dp"
+        android:layout_marginTop="80dp"
+        android:text="Rent"
+        app:layout_constraintEnd_toStartOf="@+id/ConstructionTv_recycler_student"
+        app:layout_constraintHorizontal_bias="0.355"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/AddressTv_recycler_student" />
+
+    <TextView
+        android:id="@+id/phno_textView"
+        android:layout_width="99dp"
+        android:layout_height="27dp"
+        android:layout_marginTop="136dp"
+        android:text="Phone no."
+        app:layout_constraintEnd_toStartOf="@+id/ConstructionTv_recycler_student"
+        app:layout_constraintHorizontal_bias="0.35"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/AddressTv_recycler_student" />
+
+    <Button
+        android:id="@+id/SaveButton"
+        android:layout_width="349dp"
+        android:layout_height="59dp"
+        android:layout_marginBottom="16dp"
+        android:background="@android:color/transparent"
+        android:text="Save"
+        android:textColor="#0E2CDA"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <ProgressBar
+        android:id="@+id/progressBar2"
+        style="?android:attr/progressBarStyle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="216dp"
+        app:layout_constraintBottom_toTopOf="@+id/SaveButton"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <EditText
+        android:id="@+id/BHKTv_recycler_student"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="124dp"
+        android:ems="10"
+        android:hint="BHK"
+        android:inputType="textPersonName"
+        android:minHeight="48dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.451"
+        app:layout_constraintStart_toEndOf="@+id/BHKTextView"
+        app:layout_constraintTop_toBottomOf="@+id/housePhoto_all" />
+
+    <EditText
+        android:id="@+id/AddressTv_recycler_student"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="180dp"
+        android:ems="10"
+        android:hint="Address"
+        android:inputType="textPersonName"
+        android:maxLines="4"
+        android:minHeight="48dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.463"
+        app:layout_constraintStart_toEndOf="@+id/AddressTextView"
+        app:layout_constraintTop_toBottomOf="@+id/housePhoto_all" />
+
+    <EditText
+        android:id="@+id/DistanceTv_recycler_students"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:ems="10"
+        android:hint="Distance From College"
+        android:inputType="textPersonName"
+        android:maxLines="4"
+        android:minHeight="48dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.441"
+        app:layout_constraintStart_toEndOf="@+id/AddressTextView"
+        app:layout_constraintTop_toBottomOf="@+id/AddressTv_recycler_student" />
+
+    <EditText
+        android:id="@+id/rentTv_recycler_students"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="68dp"
+        android:ems="10"
+        android:hint="Rent"
+        android:inputType="textPersonName"
+        android:maxLines="4"
+        android:minHeight="48dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.441"
+        app:layout_constraintStart_toEndOf="@+id/AddressTextView"
+        app:layout_constraintTop_toBottomOf="@+id/AddressTv_recycler_student" />
+
+    <EditText
+        android:id="@+id/contact_recycler_students"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="128dp"
+        android:ems="10"
+        android:hint="Contact Number"
+        android:inputType="textPersonName"
+        android:maxLines="4"
+        android:minHeight="48dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.463"
+        app:layout_constraintStart_toEndOf="@+id/AddressTextView"
+        app:layout_constraintTop_toBottomOf="@+id/AddressTv_recycler_student" />
+</androidx.constraintlayout.widget.ConstraintLayout>

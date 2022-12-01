@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">HouseRenting</string>
+    <string name="enter_password">Enter Password</string>
+    <string name="new_flat">new_flat</string>
+</resources>

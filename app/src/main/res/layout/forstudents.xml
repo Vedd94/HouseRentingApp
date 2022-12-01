@@ -1,0 +1,223 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_margin="5dp"
+    app:cardCornerRadius="8dp"
+    android:layout_height="wrap_content">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="721dp">
+
+        <ImageView
+            android:id="@+id/housePhoto_listofhouses"
+            android:layout_width="368dp"
+            android:layout_height="206dp"
+            android:layout_marginTop="40dp"
+            android:background="@drawable/img"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.529"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <TextView
+            android:id="@+id/Landlord_no_listofhouses"
+            android:layout_width="107dp"
+            android:layout_height="28dp"
+            android:layout_marginTop="136dp"
+            android:text="TextView"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.101"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <TextView
+            android:id="@+id/AboutTv_Recycler_listofhouses"
+            android:layout_width="230dp"
+            android:layout_height="49dp"
+            android:layout_marginTop="20dp"
+            android:ems="10"
+            android:hint="About"
+            android:inputType="textPersonName"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.861"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/housePhoto_listofhouses" />
+
+        <TextView
+            android:id="@+id/ConstructionTv_recycler_listofhouses"
+            android:layout_width="197dp"
+            android:layout_height="48dp"
+            android:layout_marginTop="76dp"
+            android:ems="10"
+            android:hint="Construction"
+            android:inputType="textPersonName"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.728"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/housePhoto_listofhouses" />
+
+        <TextView
+            android:id="@+id/AboutTextView"
+            android:layout_width="99dp"
+            android:layout_height="27dp"
+            android:layout_marginTop="32dp"
+            android:text="About"
+            app:layout_constraintEnd_toStartOf="@+id/AboutTv_Recycler_listofhouses"
+            app:layout_constraintHorizontal_bias="0.35"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/housePhoto_listofhouses" />
+
+        <TextView
+            android:id="@+id/BuilderTextView"
+            android:layout_width="99dp"
+            android:layout_height="27dp"
+            android:layout_marginTop="88dp"
+            android:text="Construction"
+            app:layout_constraintEnd_toStartOf="@+id/ConstructionTv_recycler_listofhouses"
+            app:layout_constraintHorizontal_bias="0.35"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/housePhoto_listofhouses" />
+
+        <TextView
+            android:id="@+id/BHKTextView"
+            android:layout_width="99dp"
+            android:layout_height="27dp"
+            android:layout_marginTop="136dp"
+            android:text="BHK"
+            app:layout_constraintEnd_toStartOf="@+id/ConstructionTv_recycler_listofhouses"
+            app:layout_constraintHorizontal_bias="0.35"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/housePhoto_listofhouses" />
+
+        <TextView
+            android:id="@+id/AddressTextView"
+            android:layout_width="99dp"
+            android:layout_height="27dp"
+            android:layout_marginTop="192dp"
+            android:text="Address"
+            app:layout_constraintEnd_toStartOf="@+id/ConstructionTv_recycler_listofhouses"
+            app:layout_constraintHorizontal_bias="0.35"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/housePhoto_listofhouses" />
+
+        <TextView
+            android:id="@+id/DistanceTextView"
+            android:layout_width="101dp"
+            android:layout_height="36dp"
+            android:layout_marginTop="24dp"
+            android:text="Distance From College"
+            app:layout_constraintEnd_toStartOf="@+id/ConstructionTv_recycler_listofhouses"
+            app:layout_constraintHorizontal_bias="0.325"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/AddressTv_recycler_listofhouses" />
+
+        <TextView
+            android:id="@+id/RentTextView"
+            android:layout_width="99dp"
+            android:layout_height="27dp"
+            android:layout_marginTop="80dp"
+            android:text="Rent"
+            app:layout_constraintEnd_toStartOf="@+id/ConstructionTv_recycler_listofhouses"
+            app:layout_constraintHorizontal_bias="0.355"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/AddressTv_recycler_listofhouses" />
+
+        <TextView
+            android:id="@+id/BHKTv_recycler_listofhouses"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="124dp"
+            android:ems="10"
+            android:hint="BHK"
+            android:inputType="textPersonName"
+            android:minHeight="48dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.27"
+            app:layout_constraintStart_toEndOf="@+id/BHKTextView"
+            app:layout_constraintTop_toBottomOf="@+id/housePhoto_listofhouses" />
+
+        <TextView
+            android:id="@+id/AddressTv_recycler_listofhouses"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="172dp"
+            android:ems="10"
+            android:hint="Address"
+            android:inputType="textPersonName"
+            android:maxLines="4"
+            android:minHeight="48dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.27"
+            app:layout_constraintStart_toEndOf="@+id/AddressTextView"
+            app:layout_constraintTop_toBottomOf="@+id/housePhoto_listofhouses" />
+
+        <TextView
+            android:id="@+id/DistanceTv_recycler_listofhouses"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="12dp"
+            android:ems="10"
+
+            android:maxLines="4"
+            android:minHeight="48dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.27"
+            app:layout_constraintStart_toEndOf="@+id/AddressTextView"
+            app:layout_constraintTop_toBottomOf="@+id/AddressTv_recycler_listofhouses" />
+
+        <TextView
+            android:id="@+id/rentTv_recycler_listofhouses"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="68dp"
+            android:ems="10"
+
+            android:maxLines="4"
+            android:minHeight="48dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.27"
+            app:layout_constraintStart_toEndOf="@+id/AddressTextView"
+            app:layout_constraintTop_toBottomOf="@+id/AddressTv_recycler_listofhouses" />
+
+        <TextView
+            android:id="@+id/TimeAgo_recycler_listofhouses"
+            android:layout_width="96dp"
+            android:layout_height="30dp"
+            android:layout_marginTop="28dp"
+            android:text="TextView"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.052"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/RentTextView" />
+
+        <Button
+            android:id="@+id/button_listofhouses"
+            android:layout_width="147dp"
+            android:layout_height="48dp"
+            android:layout_marginStart="36dp"
+            android:text="Call"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/TimeAgo_recycler_listofhouses"
+            app:layout_constraintVertical_bias="0.357" />
+
+        <Button
+            android:id="@+id/button2_listofhouses"
+            android:layout_width="145dp"
+            android:layout_height="50dp"
+            android:layout_marginTop="60dp"
+            android:layout_marginEnd="44dp"
+            android:text="Add to Fav"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/rentTv_recycler_listofhouses"
+            app:layout_constraintVertical_bias="0.068" />
+
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+
+</androidx.cardview.widget.CardView>
